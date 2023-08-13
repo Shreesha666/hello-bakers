@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello Bakers</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Rubik:wght@400;500;600;700&family=Shadows+Into+Light&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png" media="min-width(768px)">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-bg.png" media="min-width(768px)">
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1>
+        <a href="#" class="logo">Hello Bakers<span class="span">.</span></a>
+      </h1>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="nav-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#about" class="navbar-link" data-nav-link>About Us</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#course-type" class="navbar-link" data-nav-link>Course</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#contact-us" class="navbar-link" data-nav-link>Contact Us</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="header-btn-group">
+        <button class="nav-toggle-btn" aria-label="Toggle Menu" data-menu-toggle-btn>
+          <span class="line top"></span>
+          <span class="line middle"></span>
+          <span class="line bottom"></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home" style="background-image: url('./assets/images/hero-bg.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">Where Taste Meets Technique:</p>
+
+            <h2 class="h1 hero-title">Elevate Your Culinary Skills to Gourmet Heights!</h2>
+
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROMO
+      -->
+
+      <section class="section section-divider white promo">
+        <div class="container">
+          <h2 class="h2 section-title food-menu" style="padding-bottom: 3rem;">
+            <span class="span">Upcoming Courses</span>
+          </h2>
+          <ul class="promo-list has-scrollbar">
+
+            <li class="promo-item">
+              <div class="promo-card">
+                <h3 class="h3 card-title">1 Month WeekEnd Beginner Classes (MORNING)</h3>
+                <p class="card-text">
+                  Course Duration: 1 Month
+                  <br>
+                  Type : Hands-on Classes
+                  <br>
+                  Class Day : Saturday & Sunday
+                  <br>
+                  Class Time : 10:30am to 02:30pm
+                </p>
+
+                <p class="card-text">
+                  All baking material will be provided by us, giving you free hand to make mistakes and practice hundreds of items throughout the course.
+                </p>
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+                <h3 class="h3 card-title">Trending Cake Masterclass</h3>
+                <p class="card-text">
+                  Course Duration: 2 Days
+                  <br>
+                  Type : Hands-on Classes
+                  <br>
+                  Class Day : Saturday & Sunday
+                  <br>
+                  Class Time : 10:30am to 03:30pm
+                </p>
+
+                <p class="card-text">
+                  Cake Baking, Cake Filling, Cake Layering, Cake Icing & Cake Decoration!<br>
+                  100% beginner friendly course. Great for home bakers too, who want to upscale their cake business with unique design
+                </p>
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+                <h3 class="h3 card-title">Cake Baking & Icing Masterclass</h3>
+                <p class="card-text">
+                  Course Duration: 2 Days
+                  <br>
+                  Type : Hands-on Classes
+                  <br>
+                  Class Day : Saturday & Sunday
+                  <br>
+                  Class Time : 10:30am to 02:30pm
+                </p>
+
+                <p class="card-text">
+                  Everything you need to know to make the perfect cake, every step of the way from mixing to serving!
+                  <br>
+                  The tools and materials needed to bake, assemble and frost a cake
+                </p>
+              </div>
+            </li>
+
+            <li class="promo-item">
+              <div class="promo-card">
+
+                <h3 class="h3 card-title">3 Month WeekDay Classes Diploma</h3>
+
+                <p class="card-text">
+                  Course Duration: 3 Months
+                  <br>
+                  Type : Hands-on Classes
+                  <br>
+                  Class Day : Saturday & Sunday
+                  <br>
+                  Class Time : 10:30am to 02:30pm
+                </p>
+
+                <p class="card-text">
+                  All baking material will be provided by us, giving you free hand to make mistakes and practice hundreds of items throughout the course.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+
+
+
+<!-- 
+        - #ABOUT
+      -->
+
+      <section class="section section-divider gray about" id="about">
+        <div class="container">
+
+          <div class="about-banner">
+            <img src="./assets/images/about-us.jpg" width="509" height="459" loading="lazy" alt="About Us"
+              class="w-100 about-img">
+          </div>
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title">
+              Welcome to
+              <span class="span">Hello Bakers!!!</span>
+            </h2>
+
+            <p class="section-text">
+              At our baking class, we believe that the art of baking is a delightful blend of science, creativity, and pure joy. 
+              Whether you're a novice baker or an experienced pastry enthusiast, 
+              our classes are designed to inspire and elevate your baking skills to new heights.
+            </p>
+            <br>
+            <p class="section-text">
+              Our classes cover a wide range of baking specialties, 
+                  from classic favorites to innovative and trendy treats. We focus on using high-quality ingredients, 
+                  teaching you the importance of precision and attention to detail in achieving bakery-worthy results. 
+                  Whether you're interested in mastering the art of French patisserie or perfecting the art of bread-making, 
+                  our classes cater to all baking enthusiasts.
+            </p>
+            <br>
+            <p class="section-text">
+              But our baking class is more than just learning recipes and techniques. 
+              It's about creating a community of passionate bakers who share a love for the sweet side of life.
+              You'll have the opportunity to connect with fellow baking enthusiasts, 
+              exchange tips and tricks, and celebrate the joy of creating delicious confections together.
+            </p>
+            <br>
+            <p class="section-text">
+              Whether you dream of opening your own bakery or simply want to impress your loved ones with homemade treats, 
+              our baking class is the perfect place to hone your skills and unleash your creativity. 
+              Join us and let the aroma of freshly baked goods fill your kitchen!
+              <br>
+              Come and discover the baker within you at our baking class. 
+              Reserve your spot today and get ready to embark on a delectable journey of flavors and textures!
+            </p>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FOOD MENU
+      -->
+
+      <section class="section food-menu" id="course-type">
+        <div class="container">
+        <h2 class="h2 section-title"><span class="span">Course Type</span>
+          </h2>
+          <ul class="food-menu-list">
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="./assets/images/food-1.jpg" width="300" height="300" loading="lazy"
+                    alt="Course Type" class="w-100">
+
+                  <div class="badge">-20%</div>
+
+                  <a href="course_1.html" class="navbar-link" data-nav-link><button class="btn food-menu-btn">View Details</button></a>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Ratting</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">3 Months Diploma (Evening)</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Price:</p>
+
+                  <data class="price">&#8377;88,000.00</data>
+
+                  <del class="del" value="109,999.00">&#8377;109,999.00</del>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+
+                <div class="card-banner">
+                  <img src="./assets/images/food-2.jpg" width="300" height="300" loading="lazy"
+                    alt="Course Type" class="w-100">
+
+                  <div class="badge">-20%</div>
+
+                  <a href="course_2.html" class="navbar-link" data-nav-link><button class="btn food-menu-btn">View Details</button></a>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Ratting</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Trending Cake Masterclass</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Price:</p>
+
+                  <data class="price" value="29.00">&#8377;8,000.00</data>
+
+                  <del class="del">&#8377;10,000.00</del>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+                <div class="food-menu-card">
+  
+                  <div class="card-banner">
+                    <img src="./assets/images/food-3.jpg" width="300" height="300" loading="lazy"
+                    alt="Course Type" class="w-100">
+  
+                    <div class="badge">-20%</div>
+  
+                    <button class="btn food-menu-btn">View Details</button>
+                  </div>
+  
+                  <div class="wrapper">
+                  <p class="category">Ratting</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+  
+                  <h3 class="h3 card-title">3 Months Diploma (Morning)</h3>
+  
+                  <div class="price-wrapper">
+  
+                    <p class="price-text">Price:</p>
+  
+                    <data class="price">&#8377;88,000.00</data>
+  
+                    <del class="del" value="109,999.00">&#8377;109,999.00</del>
+  
+                  </div>
+  
+                </div>
+              </li>
+
+            <li>
+              <div class="food-menu-card">
+  
+                <div class="card-banner">
+                  <img src="./assets/images/food-4.jpg" width="300" height="300" loading="lazy"
+                  alt="Course Type" class="w-100">
+
+                  <div class="badge">-20%</div>
+
+                  <button class="btn food-menu-btn">View Details</button>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Ratting</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">1 Month Beginner Classes</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Price:</p>
+
+                  <data class="price">&#8377;88,000.00</data>
+
+                  <del class="del" value="109,999.00">&#8377;109,999.00</del>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+  
+                <div class="card-banner">
+                  <img src="./assets/images/food-5.jpg" width="300" height="300" loading="lazy"
+                  alt="Course Type" class="w-100">
+
+                  <div class="badge">-20%</div>
+
+                  <button class="btn food-menu-btn">View Details</button>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Ratting</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">Short-Term Masterclasses</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Price:</p>
+
+                  <data class="price">&#8377;88,000.00</data>
+
+                  <del class="del" value="109,999.00">&#8377;109,999.00</del>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="food-menu-card">
+  
+                <div class="card-banner">
+                  <img src="./assets/images/food-6.jpg" width="300" height="300" loading="lazy"
+                  alt="Course Type" class="w-100">
+
+                  <div class="badge">-20%</div>
+
+                  <button class="btn food-menu-btn">View Details</button>
+                </div>
+
+                <div class="wrapper">
+                  <p class="category">Ratting</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+
+                <h3 class="h3 card-title">3 Months Diploma</h3>
+
+                <div class="price-wrapper">
+
+                  <p class="price-text">Price:</p>
+
+                  <data class="price">&#8377;88,000.00</data>
+
+                  <del class="del" value="109,999.00">&#8377;109,999.00</del>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+
+        </div>
+      </section>
+
+
+
+
+      <!-- 
+        - #DELIVERY
+      -->
+
+      <section class="section section-divider gray delivery">
+        <div class="container">
+
+          <div class="delivery-content">
+
+            <h2 class="h2 section-title">
+              Where there is cake, there is hope. And there is always <span class="span">Cake</span>
+            </h2>
+
+            <p class="section-text">
+              Then a recipe should come as a surprise that it supplies all the sweetness and cuteness altogether.
+
+We all have our favorite desserts, and for many people, it’s cake. So I thought that this would be the perfect opportunity to remind everyone why they love eating this delicious treat.
+
+
+            </p>
+
+            <!-- <button class="btn btn-hover">Order Now</button> -->
+          </div>
+
+          <figure class="delivery-banner">
+            <img src="./assets/images/delivery-banner-bg.png" width="700" height="602" loading="lazy" alt="clouds"
+              class="w-100">
+
+            <img src="./assets/images/delivery-boy.svg" width="1000" height="880" loading="lazy" alt="delivery boy"
+              class="w-100 delivery-img" data-delivery-boy>
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section section-divider white testi">
+        <div class="container">
+
+          <p class="section-subtitle">Testimonials</p>
+
+          <h2 class="h2 section-title">
+            Our Customers <span class="span">Reviews</span>
+          </h2>
+
+          <p class="section-text">
+            Food is any substance consumed to provide nutritional
+            support for an organism.
+          </p>
+
+          <ul class="testi-list has-scrollbar">
+
+            <li class="testi-item">
+              <div class="testi-card">
+
+                <div class="profile-wrapper">
+
+                  <figure class="avatar">
+                    <img src="./assets/images/avatar-1.jpg" width="80" height="80" loading="lazy" alt="Robert William">
+                  </figure>
+
+                  <div>
+                    <h3 class="h4 testi-name">Robert William</h3>
+
+                    <p class="testi-title">CEO Kingfisher</p>
+                  </div>
+
+                </div>
+
+                <blockquote class="testi-text">
+                  "I would be lost without restaurant. I would like to personally thank you for your outstanding
+                  product."
+                </blockquote>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testi-item">
+              <div class="testi-card">
+
+                <div class="profile-wrapper">
+
+                  <figure class="avatar">
+                    <img src="./assets/images/avatar-2.jpg" width="80" height="80" loading="lazy" alt="Thomas Josef">
+                  </figure>
+
+                  <div>
+                    <h3 class="h4 testi-name">Thomas Josef</h3>
+
+                    <p class="testi-title">CEO Getforce</p>
+                  </div>
+
+                </div>
+
+                <blockquote class="testi-text">
+                  "I would be lost without restaurant. I would like to personally thank you for your outstanding
+                  product."
+                </blockquote>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testi-item">
+              <div class="testi-card">
+
+                <div class="profile-wrapper">
+
+                  <figure class="avatar">
+                    <img src="./assets/images/avatar-3.jpg" width="80" height="80" loading="lazy" alt="Charles Richard">
+                  </figure>
+
+                  <div>
+                    <h3 class="h4 testi-name">Charles Richard</h3>
+
+                    <p class="testi-title">CEO Angela</p>
+                  </div>
+
+                </div>
+
+                <blockquote class="testi-text">
+                  "I would be lost without restaurant. I would like to personally thank you for your outstanding
+                  product."
+                </blockquote>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+     
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" id="contact-us">
+
+    <div class="footer-top" style="background-image: url('./assets/images/footer-illustration.png')">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="" class="logo">Hello Bakers<span class="span">.</span></a>
+
+          <p class="footer-text">
+            Elevate Your Culinary Skills to Gourmet Heights!
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contact Info</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">+1 (062) 109-9222</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">Info@YourGmail24.com</p>
+          </li>
+
+          <li>
+            <address class="footer-list-item">153 Williamson Plaza, Maggieberg, MT 09514</address>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Opening Hours</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">Monday-Friday: 08:00-22:00</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">Tuesday 4PM: Till Mid Night</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">Saturday: 10:00-16:00</p>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <!-- <p class="copyright-text">
+          &copy; 2022 <a href="#" class="copyright-link">codewithsadee</a> All Rights Reserved.
+        </p> -->
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
