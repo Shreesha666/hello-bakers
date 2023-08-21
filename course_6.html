@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Bakers</title>
+    <!-- 
+         - favicon
+         -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <!-- 
+         - custom css link
+         -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- 
+         - google font link
+         -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Rubik:wght@400;500;600;700&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+    <!-- 
+         - preload images
+         -->
+    <link rel="preload" as="image" href="./assets/images/hero-banner.png" media="min-width(768px)">
+    <link rel="preload" as="image" href="./assets/images/hero-banner-bg.png" media="min-width(768px)">
+    <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+</head>
+<style type="text/css">
+    .about-item {
+        justify-content: left !important;
+    }
+
+    .testi-card {
+        height: 36rem !important;
+    }
+
+    .header {
+        color: black;
+        --color: black;
+        --btn-color: black;
+    }
+
+    .testi-card {
+        padding: 30px 30px 15px 40px !important;
+    }
+
+    .scroll-spacing {
+        padding-bottom: 2% !important;
+    }
+</style>
+
+<body id="top">
+    <!-- 
+         - #HEADER
+         -->
+    <header class="header" data-header>
+        <div class="container">
+            <h1>
+                <a href="index.html" class="logo">Hello Bakers<span class="span">.</span></a>
+            </h1>
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#about" target="_blank" class="navbar-link" data-nav-link>About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#food-menu" class="navbar-link" data-nav-link>Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="navbar-link" data-nav-link>Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header-btn-group">
+                <button class="nav-toggle-btn" aria-label="Toggle Menu" data-menu-toggle-btn>
+                    <span class="line top"></span>
+                    <span class="line middle"></span>
+                    <span class="line bottom"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- 
+         - #ABOUT
+         -->
+    <section class="section section-divider gray about" id="about">
+        <div class="container">
+            <div class="about-banner">
+                <img src="./assets/images/course_2.jpg" width="509" height="459" loading="lazy" alt="Burger with Drinks"
+                    class="w-100 about-img">
+            </div>
+            <div class="about-content">
+                <h2 class="h2 section-title">
+                    Course Overview
+                    <span class="span">Cake Baking & Icieng</span>
+                </h2>
+                <ul class="about-list">
+                    <li class="about-item">
+                        <ion-icon name="checkmark-outline"></ion-icon>
+                        <span class="span">Cake Baking, Cake Filling, Cake Layering, Cake Icing!</span>
+                    </li>
+                    <li class="about-item">
+                        <ion-icon name="checkmark-outline"></ion-icon>
+                        <span class="span">100% beginner friendly course.</span>
+                    </li>
+                    <li class="about-item">
+                        <ion-icon name="checkmark-outline"></ion-icon>
+                        <span class="span">How to prepare cake layers and assemble a layer cake</span>
+                    </li>
+                    <li class="about-item">
+                        <ion-icon name="checkmark-outline"></ion-icon>
+                        <span class="span">The tools and materials needed to bake, assemble and frost a cake</span>
+                    </li>
+                    <li class="about-item">
+                        <ion-icon name="checkmark-outline"></ion-icon>
+                        <span class="span">Prepare luscious fillings and frostings</span>
+                    </li>
+                    <li class="about-item">
+                        <ion-icon name="checkmark-outline"></ion-icon>
+                        <span class="span">Finishing touches to decorate cakes.</span>
+                    </li>
+                </ul>
+                <div class="price-wrapper">
+                    <p class="price-text">Price:</p>
+                    <button class="btn btn-hover">
+                        <data class="price">&#8377;5,000.00</data>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 
+         - #TESTIMONIALS
+         -->
+    <section class="section section-divider white testi" style="padding-top: 1% !important">
+        <div class="container">
+            <!-- <p class="section-subtitle">Course Content</p> -->
+            <h2 class="h2 section-title">Course Content</h2>
+            <ul class="testi-list has-scrollbar scroll-spacing">
+                <li class="testi-item">
+                    <div class="testi-card">
+                        <div class="profile-wrapper">
+                            <div>
+                                <h3 class="h4 testi-name">Course Details</h3>
+                            </div>
+                        </div>
+                        <blockquote class="testi-text">
+                            <ul class="about-list">
+                                <li class="about-item">
+                                    <ion-icon name="calendar-outline"></ion-icon>
+                                    <blockquote><b>Start Date</b> - 01-Sep-2023</blockquote>
+                                </li>
+                                <li class="about-item">
+                                    <ion-icon name="calendar-outline"></ion-icon>
+                                    <blockquote><b>End Date</b> - 02-Sep-2023</blockquote>
+                                </li>
+                                <li class="about-item">
+                                    <ion-icon name="time-outline"></ion-icon>
+                                    <blockquote><b>Course Duration</b> - 2days</blockquote>
+                                </li>
+                                <li class="about-item">
+                                    <ion-icon name="alarm-outline"></ion-icon>
+                                    <blockquote><b>Morning Class</b> - 11:00 AM to 02:30 PM</blockquote>
+                                </li>
+                                <li class="about-item">
+                                    <ion-icon name="alarm-outline"></ion-icon>
+                                    <blockquote><b>Evening Class</b> - 03:00 PM to 07:00 PM</blockquote>
+                                </li>
+                                <li class="about-item">
+                                    <ion-icon name="location-outline"></ion-icon>
+                                    <blockquote><b>Location</b> - RR Nagar</blockquote>
+                                </li>
+                                <li class="about-item">
+                                    <ion-icon name="logo-whatsapp"></ion-icon>
+                                    <blockquote><b>Contact</b> - +91-0000000000</blockquote>
+                                </li>
+                            </ul>
+                        </blockquote>
+                    </div>
+                </li>
+                <li class="testi-item">
+                    <div class="testi-card">
+                        <div class="profile-wrapper">
+                            <div>
+                                <h3 class="h4 testi-name">Cakes covered in this course</h3>
+                            </div>
+                        </div>
+                        <blockquote class="testi-text">
+                            <ul class="about-list">
+                                <li class="about-item">
+                                    <ion-icon name="checkmark-outline"></ion-icon>
+                                    <blockquote>Roasted Almond Cake</blockquote>
+                                </li>
+                                <li class="about-item">
+                                    <ion-icon name="checkmark-outline"></ion-icon>
+                                    <blockquote>Berry Ganache Cake</blockquote>
+                                </li>
+                                <li class="about-item">
+                                    <ion-icon name="checkmark-outline"></ion-icon>
+                                    <blockquote>Lotus Biscoff Cake.</blockquote>
+                                </li>
+                                <li class="about-item">
+                                    <ion-icon name="checkmark-outline"></ion-icon>
+                                    <blockquote>Hazelnut Nutella Cake</blockquote>
+                                </li>
+                                <li class="about-item">
+                                    <ion-icon name="checkmark-outline"></ion-icon>
+                                    <blockquote>Lemon Curd Cake</blockquote>
+                                </li>
+                                <li class="about-item">
+                                    <ion-icon name="checkmark-outline"></ion-icon>
+                                    <blockquote>Salted Caramel Cake</blockquote>
+                                </li>
+                            </ul>
+                        </blockquote>
+                    </div>
+                </li>
+                <li class="testi-item">
+                    <div class="testi-card">
+                        <div class="profile-wrapper">
+                            <div>
+                                <h3 class="h4 testi-name">Inclusions</h3>
+                            </div>
+                        </div>
+                        <blockquote class="testi-text">
+                            <ul class="about-list">
+                                <li class="about-item">
+                                    <ion-icon name="checkmark-outline"></ion-icon>
+                                    <blockquote>Ingredients & Equipments</blockquote>
+                                </li>
+                                <li class="about-item">
+                                    <ion-icon name="checkmark-outline"></ion-icon>
+                                    <blockquote>Personal Apron</blockquote>
+                                </li>
+                                <li class="about-item">
+                                    <ion-icon name="checkmark-outline"></ion-icon>
+                                    <blockquote>Detailed Recipe Book</blockquote>
+                                </li>
+                                <li class="about-item">
+                                    <ion-icon name="checkmark-outline"></ion-icon>
+                                    <blockquote>Goodies Hamper</blockquote>
+                                </li>
+                                <li class="about-item">
+                                    <ion-icon name="checkmark-outline"></ion-icon>
+                                    <blockquote>Certificate of Completion</blockquote>
+                                </li>
+                            </ul>
+                        </blockquote>
+                    </div>
+                </li>
+                <li class="testi-item">
+                    <div class="testi-card">
+                        <div class="profile-wrapper">
+                            <div>
+                                <h3 class="h4 testi-name">Items & Techniques Covered</h3>
+                            </div>
+                        </div>
+                        <blockquote class="testi-text">
+                            <ul class="about-list">
+                                <li class="about-item">
+                                    <ion-icon name="checkmark-outline"></ion-icon>
+                                    <blockquote>Classic Vanilla Butter Cream Cupcake</blockquote>
+                                </li>
+                                <li class="about-item">
+                                    <ion-icon name="checkmark-outline"></ion-icon>
+                                    <blockquote>Chocolate Cupcake</blockquote>
+                                </li>
+                                <li class="about-item">
+                                    <ion-icon name="checkmark-outline"></ion-icon>
+                                    <blockquote>Red Velvet Cupcake</blockquote>
+                                </li>
+                                <li class="about-item">
+                                    <ion-icon name="checkmark-outline"></ion-icon>
+                                    <blockquote>Tangy Orange Butter Cream Cupcake</blockquote>
+                                </li>
+                                <li class="about-item">
+                                    <ion-icon name="checkmark-outline"></ion-icon>
+                                    <blockquote>Spiced Carrot Cupcake</blockquote>
+                                </li>
+                            </ul>
+                        </blockquote>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- 
+         - #FOOTER
+         -->
+    <footer class="footer">
+        <div class="footer-top" style="background-image: url('./assets/images/footer-illustration.png')">
+            <div class="container">
+                <div class="footer-brand">
+                    <a href="" class="logo">Hello Bakers<span class="span">.</span></a>
+                    <p class="footer-text">
+                        Elevate Your Culinary Skills to Gourmet Heights!
+                    </p>
+                    <ul class="social-list">
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-pinterest"></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="footer-list">
+                    <li>
+                        <p class="footer-list-title">Contact Info</p>
+                    </li>
+                    <li>
+                        <p class="footer-list-item">+1 (062) 109-9222</p>
+                    </li>
+                    <li>
+                        <p class="footer-list-item">Info@YourGmail24.com</p>
+                    </li>
+                    <li>
+                        <address class="footer-list-item">153 Williamson Plaza, Maggieberg, MT 09514</address>
+                    </li>
+                </ul>
+                <ul class="footer-list">
+                    <li>
+                        <p class="footer-list-title">Opening Hours</p>
+                    </li>
+                    <li>
+                        <p class="footer-list-item">Monday-Friday: 08:00-22:00</p>
+                    </li>
+                    <li>
+                        <p class="footer-list-item">Tuesday 4PM: Till Mid Night</p>
+                    </li>
+                    <li>
+                        <p class="footer-list-item">Saturday: 10:00-16:00</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+            </div>
+        </div>
+    </footer>
+    <!-- 
+         - #BACK TO TOP
+         -->
+    <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+        <ion-icon name="chevron-up"></ion-icon>
+    </a>
+    <!-- 
+         - custom js link
+         -->
+    <script src="./assets/js/script.js" defer></script>
+    <!-- 
+         - ionicon link
+         -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
